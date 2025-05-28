@@ -1,0 +1,57 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Edonis' on host 'desktop-2m32jfd' (Windows NT_amd64 version 6.2) on Wed May 21 18:36:39 +0200 2025
+INFO: [HLS 200-10] In directory 'C:/Users/Edonis/Desktop/hls-refactoring-files/Data/kernel6'
+Sourcing Tcl script 'C:/Users/Edonis/Desktop/hls-refactoring-files/Data/kernel6/prj_kernel6/solution1/csynth.tcl'
+INFO: [HLS 200-10] Opening project 'C:/Users/Edonis/Desktop/hls-refactoring-files/Data/kernel6/prj_kernel6'.
+INFO: [HLS 200-10] Adding design file 'kernel6.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'kernel6_test.cpp' to the project
+INFO: [HLS 200-10] Opening solution 'C:/Users/Edonis/Desktop/hls-refactoring-files/Data/kernel6/prj_kernel6/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'kernel6.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 183.801 ; gain = 92.309
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 183.801 ; gain = 92.309
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 183.801 ; gain = 92.309
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 183.801 ; gain = 92.309
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'LOOP1' (kernel6.cpp:4) in function 'kernel6' for pipelining.
+WARNING: [XFORM 203-503] Cannot unroll loop 'LOOP2' (kernel6.cpp:11) in function 'kernel6': cannot completely unroll a loop with a variable trip count.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 183.801 ; gain = 92.309
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'LOOP1' (kernel6.cpp:4:41) in function 'kernel6' : 
+
+the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 183.801 ; gain = 92.309
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'kernel6' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+WARNING: [SCHED 204-65] Unable to satisfy pipeline directive: Loop contains subloop(s) not being unrolled or flattened.
+INFO: [SCHED 204-61] Pipelining loop 'LOOP2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 4.984 seconds; current allocated memory: 100.797 MB.
+INFO: [HLS 200-434] Only 1 loops out of a total 2 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.051 seconds; current allocated memory: 101.100 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'kernel6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'kernel6/region_start' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'kernel6/region_len' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'kernel6/index_dst' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'kernel6/results' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'kernel6' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel6'.
+INFO: [HLS 200-111]  Elapsed time: 0.066 seconds; current allocated memory: 101.408 MB.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 183.801 ; gain = 92.309
+INFO: [VHDL 208-304] Generating VHDL RTL for kernel6.
+INFO: [VLOG 209-307] Generating Verilog RTL for kernel6.
+INFO: [HLS 200-112] Total elapsed time: 5.713 seconds; peak allocated memory: 101.408 MB.
