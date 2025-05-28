@@ -1,0 +1,328 @@
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [Common 17-206] Exiting vivado_hls at Wed May 21 20:50:06 2025...
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'kernel9.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 184.891 ; gain = 93.398
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 184.891 ; gain = 93.398
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.891 ; gain = 93.398
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.891 ; gain = 93.398
+INFO: [XFORM 203-11] Balancing expressions in function 'kernel9' (kernel9.cpp:3)...4 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.891 ; gain = 93.398
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.891 ; gain = 93.398
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'kernel9' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 4.903 seconds; current allocated memory: 100.514 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 1 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.04 seconds; current allocated memory: 100.780 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'kernel9/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'kernel9' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel9'.
+INFO: [HLS 200-111]  Elapsed time: 0.044 seconds; current allocated memory: 100.988 MB.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 184.891 ; gain = 93.398
+INFO: [VHDL 208-304] Generating VHDL RTL for kernel9.
+INFO: [VLOG 209-307] Generating Verilog RTL for kernel9.
+INFO: [HLS 200-112] Total elapsed time: 5.471 seconds; peak allocated memory: 100.988 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'kernel9.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 183.848 ; gain = 92.348
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 183.848 ; gain = 92.348
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 183.848 ; gain = 92.348
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 183.848 ; gain = 92.348
+INFO: [XFORM 203-11] Balancing expressions in function 'kernel9' (kernel9.cpp:3)...4 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 183.848 ; gain = 92.348
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 183.848 ; gain = 92.348
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'kernel9' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'LOOP1'.
+WARNING: [SCHED 204-68] The II Violation in module 'kernel9' (Loop: LOOP1): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation ('a_addr_1_write_ln10', kernel9.cpp:10) of variable 'x', kernel9.cpp:9 on array 'a' and 'load' operation ('a_load', kernel9.cpp:9) on array 'a'.
+WARNING: [SCHED 204-68] The II Violation in module 'kernel9' (Loop: LOOP1): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation ('a_addr_1_write_ln10', kernel9.cpp:10) of variable 'x', kernel9.cpp:9 on array 'a' and 'load' operation ('a_load', kernel9.cpp:9) on array 'a'.
+WARNING: [SCHED 204-68] The II Violation in module 'kernel9' (Loop: LOOP1): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation ('a_addr_1_write_ln10', kernel9.cpp:10) of variable 'x', kernel9.cpp:9 on array 'a' and 'load' operation ('a_load', kernel9.cpp:9) on array 'a'.
+WARNING: [SCHED 204-68] The II Violation in module 'kernel9' (Loop: LOOP1): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation ('a_addr_1_write_ln10', kernel9.cpp:10) of variable 'x', kernel9.cpp:9 on array 'a' and 'load' operation ('a_load', kernel9.cpp:9) on array 'a'.
+WARNING: [SCHED 204-68] The II Violation in module 'kernel9' (Loop: LOOP1): Unable to enforce a carried dependence constraint (II = 5, distance = 1, offset = 1)
+   between 'store' operation ('a_addr_1_write_ln10', kernel9.cpp:10) of variable 'x', kernel9.cpp:9 on array 'a' and 'load' operation ('a_load', kernel9.cpp:9) on array 'a'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 6, Depth = 6.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 4.919 seconds; current allocated memory: 100.511 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.035 seconds; current allocated memory: 100.651 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'kernel9/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'kernel9' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel9'.
+INFO: [HLS 200-111]  Elapsed time: 0.046 seconds; current allocated memory: 100.900 MB.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 183.848 ; gain = 92.348
+INFO: [VHDL 208-304] Generating VHDL RTL for kernel9.
+INFO: [VLOG 209-307] Generating Verilog RTL for kernel9.
+INFO: [HLS 200-112] Total elapsed time: 5.497 seconds; peak allocated memory: 100.900 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'kernel9.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from kernel9.cpp:1:
+kernel9.cpp:5:5: error: definition of variable with array type needs an explicit size or an initializer
+int idx_buf[];
+    ^
+kernel9.cpp:6:5: error: definition of variable with array type needs an explicit size or an initializer
+int val_buf[];
+    ^
+2 errors generated.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'kernel9.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 184.738 ; gain = 93.211
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 184.738 ; gain = 93.211
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.738 ; gain = 93.211
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.738 ; gain = 93.211
+INFO: [XFORM 203-11] Balancing expressions in function 'kernel9' (kernel9.cpp:3)...4 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.738 ; gain = 93.211
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.738 ; gain = 93.211
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'kernel9' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'LOOP1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 6.
+INFO: [SCHED 204-61] Pipelining loop 'LOOP2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 4.903 seconds; current allocated memory: 100.695 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.043 seconds; current allocated memory: 100.895 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'kernel9/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'kernel9' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel9'.
+INFO: [HLS 200-111]  Elapsed time: 0.053 seconds; current allocated memory: 101.367 MB.
+INFO: [RTMG 210-278] Implementing memory 'kernel9_idx_buf_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 184.738 ; gain = 93.211
+INFO: [VHDL 208-304] Generating VHDL RTL for kernel9.
+INFO: [VLOG 209-307] Generating Verilog RTL for kernel9.
+INFO: [HLS 200-112] Total elapsed time: 5.573 seconds; peak allocated memory: 101.367 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'kernel9.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from kernel9.cpp:1:
+kernel9.cpp:13:12: error: subscripted value is not an array, pointer, or vector
+        idx[i] = idx;
+        ~~~^~
+1 error generated.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'kernel9.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 184.840 ; gain = 93.309
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 184.840 ; gain = 93.309
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.840 ; gain = 93.309
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.840 ; gain = 93.309
+INFO: [XFORM 203-11] Balancing expressions in function 'kernel9' (kernel9.cpp:3)...4 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.840 ; gain = 93.309
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.840 ; gain = 93.309
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'kernel9' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'LOOP1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 6.
+INFO: [SCHED 204-61] Pipelining loop 'LOOP2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 4.885 seconds; current allocated memory: 100.694 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.044 seconds; current allocated memory: 100.895 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'kernel9/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'kernel9' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel9'.
+INFO: [HLS 200-111]  Elapsed time: 0.056 seconds; current allocated memory: 101.366 MB.
+INFO: [RTMG 210-278] Implementing memory 'kernel9_idxa_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 184.840 ; gain = 93.309
+INFO: [VHDL 208-304] Generating VHDL RTL for kernel9.
+INFO: [VLOG 209-307] Generating Verilog RTL for kernel9.
+INFO: [HLS 200-112] Total elapsed time: 5.57 seconds; peak allocated memory: 101.366 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'kernel9.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 184.434 ; gain = 92.898
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 184.434 ; gain = 92.898
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.434 ; gain = 92.898
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.434 ; gain = 92.898
+INFO: [XFORM 203-11] Balancing expressions in function 'kernel9' (kernel9.cpp:3)...4 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.434 ; gain = 92.898
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.434 ; gain = 92.898
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'kernel9' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'LOOP1'.
+WARNING: [SCHED 204-68] The II Violation in module 'kernel9' (Loop: LOOP1): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation ('a_addr_1_write_ln10', kernel9.cpp:10) of variable 'x', kernel9.cpp:9 on array 'a' and 'load' operation ('a_load', kernel9.cpp:9) on array 'a'.
+WARNING: [SCHED 204-68] The II Violation in module 'kernel9' (Loop: LOOP1): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation ('a_addr_1_write_ln10', kernel9.cpp:10) of variable 'x', kernel9.cpp:9 on array 'a' and 'load' operation ('a_load', kernel9.cpp:9) on array 'a'.
+WARNING: [SCHED 204-68] The II Violation in module 'kernel9' (Loop: LOOP1): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation ('a_addr_1_write_ln10', kernel9.cpp:10) of variable 'x', kernel9.cpp:9 on array 'a' and 'load' operation ('a_load', kernel9.cpp:9) on array 'a'.
+WARNING: [SCHED 204-68] The II Violation in module 'kernel9' (Loop: LOOP1): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation ('a_addr_1_write_ln10', kernel9.cpp:10) of variable 'x', kernel9.cpp:9 on array 'a' and 'load' operation ('a_load', kernel9.cpp:9) on array 'a'.
+WARNING: [SCHED 204-68] The II Violation in module 'kernel9' (Loop: LOOP1): Unable to enforce a carried dependence constraint (II = 5, distance = 1, offset = 1)
+   between 'store' operation ('a_addr_1_write_ln10', kernel9.cpp:10) of variable 'x', kernel9.cpp:9 on array 'a' and 'load' operation ('a_load', kernel9.cpp:9) on array 'a'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 6, Depth = 6.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 4.872 seconds; current allocated memory: 100.511 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.048 seconds; current allocated memory: 100.651 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'kernel9/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'kernel9' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel9'.
+INFO: [HLS 200-111]  Elapsed time: 0.053 seconds; current allocated memory: 100.900 MB.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 184.434 ; gain = 92.898
+INFO: [VHDL 208-304] Generating VHDL RTL for kernel9.
+INFO: [VLOG 209-307] Generating Verilog RTL for kernel9.
+INFO: [HLS 200-112] Total elapsed time: 5.458 seconds; peak allocated memory: 100.900 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'kernel9.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 184.594 ; gain = 93.094
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 184.594 ; gain = 93.094
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.594 ; gain = 93.094
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.594 ; gain = 93.094
+INFO: [XFORM 203-11] Balancing expressions in function 'kernel9' (kernel9.cpp:3)...4 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.594 ; gain = 93.094
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 184.594 ; gain = 93.094
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'kernel9' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'LOOP1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 6.
+INFO: [SCHED 204-61] Pipelining loop 'LOOP2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 4.875 seconds; current allocated memory: 100.694 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.039 seconds; current allocated memory: 100.895 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'kernel9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'kernel9/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'kernel9' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel9'.
+INFO: [HLS 200-111]  Elapsed time: 0.058 seconds; current allocated memory: 101.366 MB.
+INFO: [RTMG 210-278] Implementing memory 'kernel9_idxa_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 184.594 ; gain = 93.094
+INFO: [VHDL 208-304] Generating VHDL RTL for kernel9.
+INFO: [VLOG 209-307] Generating Verilog RTL for kernel9.
+INFO: [HLS 200-112] Total elapsed time: 5.562 seconds; peak allocated memory: 101.366 MB.
